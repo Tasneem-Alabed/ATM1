@@ -1,5 +1,4 @@
-
-﻿using System;
+using System;
 
 namespace ATM
 {
@@ -106,7 +105,7 @@ namespace ATM
             Console.WriteLine($"Your balance = {Balance}");
             return Balance;
         }
+
+
     }
 }
-
-
