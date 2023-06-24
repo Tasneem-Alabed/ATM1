@@ -1,17 +1,11 @@
-﻿using ATM;
+using ATM;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 
 namespace ATMTest
 {
     public class UnitTest1
     {
-        [Fact]
-        public void TestWithdraw()
-        {
-            decimal x = 9;
-            decimal result = ATM.Program.Withdraw(x);
-            Assert.Equal(result, 1);
-        }
+       
         [Fact]
         public void TestWithdraw2()
         {
@@ -54,7 +48,14 @@ namespace ATMTest
         {
             decimal x = 3;
             var result = ATM.Program.Deposit(x);
-            Assert.Equal(result, 13);
+            Assert.Equal(result,13);
+        }
+        [Fact]
+        public void TestWithdraw()
+        {
+            decimal x = 9;
+            decimal result = ATM.Program.Withdraw(x);
+            Assert.Equal(result, 1);
         }
 
     }
