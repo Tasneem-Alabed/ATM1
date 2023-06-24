@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-
-﻿using System;
+using System;
 
 namespace ATM
 {
@@ -107,19 +105,7 @@ namespace ATM
             Console.WriteLine($"Your balance = {Balance}");
             return Balance;
         }
-    }
-}
 
 
-=======
-﻿namespace ConsoleApp1
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
     }
 }
->>>>>>> ef1e14b8b51c5dc2d7c2c0ea1dfaeb676c27c10d
