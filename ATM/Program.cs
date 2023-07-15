@@ -4,10 +4,10 @@ namespace ATM
 {
     public class Program
     {
-        static public decimal Balance = 10;
+        static public decimal Balance = 1000;
         static void Main(string[] args)
-        {   //welcoming masseg
-            Console.WriteLine("Hello!");
+        {   //welcoming masseges
+            Console.WriteLine("Hello !");
 
 
             try
